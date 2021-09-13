@@ -1,6 +1,15 @@
 import styled from 'styled-components'
 
 export const Carousel = styled.div`
+  background-color: #7463ff;
+  background: rgb(134, 104, 252);
+  background: radial-gradient(
+    circle,
+    rgba(134, 104, 252, 1) 0%,
+    rgba(100, 87, 233, 1) 34%,
+    rgba(87, 86, 228, 1) 45%,
+    rgba(67, 67, 179, 1) 100%
+  );
   position: relative;
   display: flex;
   height: 100vh;
