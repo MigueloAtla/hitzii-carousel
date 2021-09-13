@@ -3,11 +3,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import * as S from './styles'
+import * as S from "./styles";
 
-const Carrusel = ({ children, className='' }) => {
-    //Configuración del carrusel
-    const settings = {
+const Carrusel = ({ children, className = "" }) => {
+  //Configuración del carrusel
+  const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 1,
@@ -15,7 +15,7 @@ const Carrusel = ({ children, className='' }) => {
     initialSlide: 0,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 50000,
+    autoplaySpeed: 10000,
     cssEase: "ease-in-out",
     responsive: [
       {
@@ -46,11 +46,11 @@ const Carrusel = ({ children, className='' }) => {
   };
 
   return (
-      <S.Carousel>
-          <Slider {...settings} className={className}>
-              {children}
-          </Slider>
-      </S.Carousel>
-  )
+    <S.Carousel>
+      <Slider {...settings} className={className}>
+        {children}
+      </Slider>
+    </S.Carousel>
+  );
 };
 export default Carrusel;
