@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Carousel = styled.div`
   background-color: #7463ff;
@@ -55,5 +55,10 @@ export const Carousel = styled.div`
   .slick-slide div div {
     display: flex !important;
     justify-content: center !important;
+
+    & img {
+      width: 52%;
+      height: auto;
+    }
   }
-`
+`;
