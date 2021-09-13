@@ -15,9 +15,9 @@ const Carrusel = ({ children, className='' }) => {
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    speed: 50000,
-    autoplaySpeed: 5000,
-    cssEase: "linear",
+    speed: 2000,
+    autoplaySpeed: 50000,
+    cssEase: "ease-in-out",
     responsive: [
       {
         breakpoint: 1024,

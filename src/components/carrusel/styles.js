@@ -1,7 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Carousel = styled.div`
   position: relative;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
   .slick-prev,
   .slick-next {
     width: 40px;
@@ -39,4 +43,8 @@ export const Carousel = styled.div`
     transition: 0.5s;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
-`;
+  .slick-slide div div {
+    display: flex !important;
+    justify-content: center !important;
+  }
+`
