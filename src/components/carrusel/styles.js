@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Carousel = styled.div`
   background-color: #7463ff;
@@ -61,4 +61,8 @@ export const Carousel = styled.div`
       height: auto;
     }
   }
-`;
+
+  .slick-dots {
+    margin-bottom: -30px;
+  }
+`

@@ -1,8 +1,8 @@
 import React from 'react'
 import Carrusel from 'components/carrusel/index'
-import Login from 'assests/Hitzii-login.jpeg'
-import Menu from 'assests/Hitzii-menu.jpeg'
-import Chat from 'assests/Hitzii-chat.jpeg'
+import Login from './assests/Register-min.jpg'
+import Menu from './assests/Plugin_Store-min.jpg'
+import Chat from './assests/Chat_chanel-min.jpg'
 import Logo from './assests/hitzii-logo'
 
 function App () {
